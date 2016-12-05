@@ -1,0 +1,44 @@
+.ant-layout-aside .ant-layout-logo {
+  width: 100px;
+  height: 100px;
+}
+
+.ant-layout-aside .ant-layout-sider {
+  width: 100px;
+  background: rgba(255, 255, 255, 0.2);
+  position: absolute;
+  overflow: auto;
+  padding-bottom: 24px;
+  height: 100%;
+}
+.ant-layout-sider{
+	.ant-layout-logo{
+		cursor: pointer;
+	}
+}
+.ant-menu{
+	position:relative;
+	.ant-menu-item{
+		height: 66px;
+		line-height: 66px;
+		font-size: 16px;
+		color: #fff;
+		border-bottom: 1px solid #7184aa;
+		cursor: pointer;
+		padding-left: 20px;
+		&:hover,
+		&.active{
+			background: #f88c57;
+		}
+		&:first-child{
+			border-top: 1px solid #7184aa;
+		}
+		> i{
+			margin-right: 5px;
+		}
+		> a{
+			display: inline-block;
+			color: #fff;
+		}	
+	}
+}
